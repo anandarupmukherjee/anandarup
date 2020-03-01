@@ -42,6 +42,7 @@
         <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate">
         <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
         
+        <!-- PublicationStyple Numbers -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
 		.label {
@@ -54,6 +55,23 @@
 		.warning {background-color: #ff9800;} /* Orange */
 		.danger {background-color: #f44336;} /* Red */ 
 		.other {background-color: #e7e7e7; color: black;} /* Gray */ 
+		</style>
+		
+		<!--Youtube Videos -->
+		<style>
+		.video-responsive{
+    		overflow:hidden;
+    		padding-bottom:56.25%;
+    		position:relative;
+    		height:0;
+			}
+		.video-responsive iframe{
+    		left:0;
+    		top:0;
+    		height:100%;
+    		width:100%;
+    		position:absolute;
+			}
 		</style>
         
     </head>
@@ -203,8 +221,8 @@
                             I feel lucky enough to have been exposed to some of the relevant real-life and crucial challenges faced during on-site deployment of
                             IoT solutions, especially under the conditions of mobility and in various industrial settings. I am also a co-Founder
                             and Director for Sensordrops Networks Pvt. Ltd., which is my entrepreneurial venture with my Ph.D. supervisor and another one
-                            of my colleagues. Along the way, I have also been awarded a few times for my works and systems. 
-
+                            of my colleagues. Along the way, I have also been awarded a few times for my works and systems.
+                                 
                             I like to think, I can comfortably work on</p>
                             <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                 <ul>
@@ -774,12 +792,12 @@
                             <a href="" target="_blank" class="btn btn" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-search"></i></a>
                             </p>
                         </div>
-
                         <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                            <p><span class="label other">A-1.</span> A.Mukherjee, S. Goswami, “Visualizing Graphs using PAJEK”,PC Quest,                            Enterprise Solutions, Nov. 2010.
                             <a href="" target="_blank" class="btn btn" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-search"></i></a>
                             </p>
                         </div>
+                    </div>        
 
                     </div>        
                 </div>
@@ -1020,57 +1038,77 @@
            BLOG
         ===================
         -->
+        
+        
         <section class="mh-blog" id="mh-blog">
             <div class="container">
                 <div class="row section-separator">
                     <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                        <h3>Featured Posts</h3>
+                        <h3>Featured Videos</h3>
                     </div>
                     <div class="col-sm-12 col-md-4">
                          <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                            <img src="assets/images/b-3.png" alt="" class="img-fluid">
+                            <div class="video-responsive">
+                            	<iframe width="420" height="315" src="https://www.youtube.com/embed/UPZAOigIA8M" frameborder="0" 
+                            	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            	</iframe> 
+                            </div>
                             <div class="blog-inner">
-                                <h2><a href="blog-single.html">A life without the daily traffic jams</a></h2>
+                                <h2><a href="blog-single.html">Drones: reminiscences</a></h2>
                                 <div class="mh-blog-post-info">
                                     <ul>
-                                        <li><strong>Post On</strong><a href="">24.11.19</a></li>
-                                        <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        <li><strong>Post On</strong><a href="">01.03.20</a></li>
+                                        <li><strong>By</strong><a href="">Anandarup Mukherjee</a></li>
                                     </ul>
                                 </div>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                <a href="blog-single.html">Read More</a>
+                                <p>This video is a collection of me and my team's efforts towards automating UAVs and eventually forming 
+                                collaborative networks among them. Incidentally, this is also the topic of my Ph. D research. We also undertook 
+                                quite a lot of interesting applications during these learning phases.</p>
+                                
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <img src="assets/images/b-2.png" alt="" class="img-fluid">
+                            <div class="video-responsive">
+        						<iframe width="420" height="315" src="https://www.youtube.com/embed/6wwd9LeDLlU" frameborder="0" 
+        						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        						</iframe>
+        					</div>
                             <div class="blog-inner">
-                                <h2><a href="blog-single.html">Proportion are what’s really needed</a></h2>
+                                <h2><a href="blog-single.html">How to tame your Drone</a></h2>
                                 <div class="mh-blog-post-info">
                                     <ul>
                                         <li><strong>Post On</strong><a href="">24.11.19</a></li>
-                                        <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        <li><strong>By</strong><a href="">Anandarup Mukherjee</a></li>
                                     </ul>
                                 </div>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                <a href="blog-single.html">Read More</a>
+                                <p>This video is a reminder of the good ol' days when we were learning to handle drones and 
+                                trying to automate them, without any testing infrastructure. A small reminder of our drone struggles 
+                                and the stop-gap solutions applied. Surprisingly, we could fly these drones at any time of the day, 
+                                for indefinite periods, all the while messing with its automation and flight behavior.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
-                        <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                            <img src="assets/images/b-1.png" alt="" class="img-fluid">
+                        <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <div class="video-responsive">
+        						<iframe width="420" height="315" src="https://www.youtube.com/embed/A_x-KKJm1ZA" frameborder="0" 
+        						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        						</iframe>
+        					</div>
                             <div class="blog-inner">
-                                <h2><a href="blog-single.html">Mounts of paper work to remember the way</a></h2>
+                                <h2><a href="blog-single.html">Industrial Monitoring</a></h2>
                                 <div class="mh-blog-post-info">
                                     <ul>
-                                        <li><strong>Post On</strong><a href="">24.11.19</a></li>
-                                        <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        <li><strong>Post On</strong><a href="">01.01.20</a></li>
+                                        <li><strong>By</strong><a href="">Sensordrops Networks</a></li>
                                     </ul>
                                 </div>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                <a href="blog-single.html">Read More</a>
+                                <p>My startup SensorDrops Networks is an Indian Department of Industrial Planning and Policy (DIPP) recognized 
+                                startup and is also registered with MSME. Currently, we are incubated at the Science and Technology Entrepreneur’s Park (STEP) at IIT Kharagpur. 
+                                SensorDrops Networks is dedicated to addressing basic social needs by utilizing advanced Internet of Things (IoT) based sensing, monitoring, 
+                                and control solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -1084,7 +1122,93 @@
            TEST PUBS
         ===================
         -->        
+		<section class="mh-experince" id="mh-others">
+            <div class="bolor-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-education">
+                                 <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Professional Affiliations</h3>
+                                <div class="mh-education-deatils">
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
 
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>IEEE Communications Society (ComSoc) Grad. Student Member (2015-Present)</li>
+											<li><i class="fa fa-circle"></i>IEEE Computer Society Grad. Student Member (2015-Present)</li>
+											<li><i class="fa fa-circle"></i>IEEE Young Professionals Society Grad. Student Member (2015-Present)</li>
+											<li><i class="fa fa-circle"></i>IEEE Signal Processing Society (SPS) Grad. Student Member (2015-16)</li>
+											<li><i class="fa fa-circle"></i>ACM Grad. Student Member (2015-Present)</li>
+											<li><i class="fa fa-circle"></i>IEEE EMBS Student Member (2012-13)</li>
+											<li><i class="fa fa-circle"></i>IEEE Student Member (2011-12)</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                    
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>IEEE Vehicular Technology Society- Technical Community on Connected Vehicles</li>
+											<li><i class="fa fa-circle"></i>IEEE Computer Society Technical- Committee on Computer Communications</li>
+											<li><i class="fa fa-circle"></i>IEEE Computer Society Technical- Committee on Data Engineering</li>
+											<li><i class="fa fa-circle"></i>IEEE Computer Society Technical- Committee on Distributed Processing</li>
+											<li><i class="fa fa-circle"></i>IEEE Computer Society Technical- Committee on Scalable Computing</li>
+											<li><i class="fa fa-circle"></i>IEEE Computer Society Technical- Committee on Internet of Everything</li>
+											<li><i class="fa fa-circle"></i>IEEE Computer Society Technical- Committee on Sustainable Computing</li>
+											<li><i class="fa fa-circle"></i>IEEE ComSoc- IEEE Smart Cities Community</li>
+											<li><i class="fa fa-circle"></i>IEEE ComSoc- IEEE Future Networks Community</li>
+											<li><i class="fa fa-circle"></i>IEEE ComSoc- IEEE Internet of Things Community</li>
+                                        </ul>
+                                        </p>
+                                    </div>                                 
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-work">
+                                 <h3>Volunteer Work</h3>
+                                <div class="mh-experience-deatils">
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                        <h4>Reviewer</h4>
+                                        <div class="mh-eduyear">2014-Present</div>
+                                        <ul class="work-responsibility">
+                                        <li><i class="fa fa-circle"></i>IEEE ACCESS</li>
+										<li><i class="fa fa-circle"></i>IEEE IEEE Systems Journal</li>
+										<li><i class="fa fa-circle"></i>IEEE Transactions on Sustainable Computing</li>
+										<li><i class="fa fa-circle"></i>IEEE Journal on Selected Areas in Communication</li>
+										<li><i class="fa fa-circle"></i>IEEE Transactions on Vehicular Technology</li>
+										<li><i class="fa fa-circle"></i>IEEE Transactions on Mobile Computing</li>
+										<li><i class="fa fa-circle"></i>Springer Telecommunication Systems</li>
+										<li><i class="fa fa-circle"></i>Springer Photonic Network Communications</li>
+										<li><i class="fa fa-circle"></i>Elsevier Fractals</li>
+										<li><i class="fa fa-circle"></i>Elsevier Pervasive and Mobile Computing</li>
+										<li><i class="fa fa-circle"></i>Elsevier Computers and Electronics in Agriculture</li>
+										<li><i class="fa fa-circle"></i>Wiley Security and Communication Networks</li>
+										<li><i class="fa fa-circle"></i>Wiley International Journal of Communication Systems</li>
+										<li><i class="fa fa-circle"></i>Inderscience Journals International Journal of Communication Networks and Distributed Systems</li>
+										<li><i class="fa fa-circle"></i>JoVE Journal of Visualized Experiments</li>
+                                        </ul>
+                                    </div> 
+                                    
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                        <h4>Reviewer</h4>
+                                        <div class="mh-eduyear">2014-Present</div>
+                                        <ul class="work-responsibility">
+                                        <li><i class="fa fa-circle"></i>IEEE ANTS</li>
+										<li><i class="fa fa-circle"></i>IEEE INDICON</li>
+                                        </ul>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
 
 <span class="label success">Sucs</span>
 <span class="label info">Info</span>
