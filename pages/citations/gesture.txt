@@ -1,0 +1,11 @@
+Mukherjee A, Misra S, Daw N, Paul D. Fog-Based Visual Gesture Control and External Stabilization for Micro-UAVs. In2019 IEEE Wireless Communications and Networking Conference (WCNC) 2019 Apr 15 (pp. 1-6). IEEE.
+
+
+@inproceedings{mukherjee2019fog,
+  title={Fog-Based Visual Gesture Control and External Stabilization for Micro-UAVs},
+  author={Mukherjee, Anandarup and Misra, Sudip and Daw, Nilanjan and Paul, Debapriya},
+  booktitle={2019 IEEE Wireless Communications and Networking Conference (WCNC)},
+  pages={1--6},
+  year={2019},
+  organization={IEEE}
+}

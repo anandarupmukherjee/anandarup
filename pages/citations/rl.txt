@@ -1,0 +1,16 @@
+
+
+Mukherjee A, Misra S, Chandra VS, Obaidat MS. Resource-Optimized Multi-Armed Bandit Based Offload Path Selection in Edge UAV Swarms. IEEE Internet of Things Journal. 2018 Nov 2.
+
+
+
+
+@article{mukherjee2018resource,
+  title={Resource-Optimized Multi-Armed Bandit Based Offload Path Selection in Edge UAV Swarms},
+  author={Mukherjee, Anandarup and Misra, Sudip and Chandra, Vadde Santosha Pradeep and Obaidat, Mohammad S},
+  journal={IEEE Internet of Things Journal},
+  year={2018},
+  publisher={IEEE}
+}
+
+

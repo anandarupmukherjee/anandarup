@@ -1,0 +1,18 @@
+Mukherjee, A., Misra, S., Sukrutha, A. and Raghuwanshi, N.S., 2020. Distributed aerial processing for IoT-based edge UAV swarms in smart farming. Computer Networks, 167, p.107038.
+
+
+
+
+
+
+@article{mukherjee2020distributed,
+  title={Distributed aerial processing for IoT-based edge UAV swarms in smart farming},
+  author={Mukherjee, Anandarup and Misra, Sudip and Sukrutha, Anumandala and Raghuwanshi, Narendra Singh},
+  journal={Computer Networks},
+  volume={167},
+  pages={107038},
+  year={2020},
+  publisher={Elsevier}
+}
+
+

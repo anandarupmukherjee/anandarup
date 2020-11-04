@@ -1,0 +1,16 @@
+
+Mukherjee A, Misra S, Raghuwanshi NS. A survey of unmanned aerial sensing solutions in precision agriculture. Journal of Network and Computer Applications. 2019 Oct 8:102461.
+
+
+
+
+@article{mukherjee2019survey,
+  title={A survey of unmanned aerial sensing solutions in precision agriculture},
+  author={Mukherjee, Anandarup and Misra, Sudip and Raghuwanshi, Narendra Singh},
+  journal={Journal of Network and Computer Applications},
+  pages={102461},
+  year={2019},
+  publisher={Elsevier}
+}
+
+

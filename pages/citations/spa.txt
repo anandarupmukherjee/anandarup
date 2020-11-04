@@ -1,0 +1,16 @@
+
+Mukherjee A, Misra S, Raghuwanshi NS. SPA: A sense-predict-actuate TDMA latency reduction scheme in networked quadrotors. In2018 IEEE Wireless Communications and Networking Conference (WCNC) 2018 Apr 15 (pp. 1-6). IEEE.
+
+
+
+
+@inproceedings{mukherjee2018spa,
+  title={SPA: A sense-predict-actuate TDMA latency reduction scheme in networked quadrotors},
+  author={Mukherjee, Anandarup and Misra, Sudip and Raghuwanshi, Narendra Singh},
+  booktitle={2018 IEEE Wireless Communications and Networking Conference (WCNC)},
+  pages={1--6},
+  year={2018},
+  organization={IEEE}
+}
+
+
