@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>IoT-Based UAV Networks</title>
+		<title>IoT Networks</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -20,6 +20,18 @@
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
+		
+		<style>.label {
+			  color: white;
+			  padding: 8px;
+			}
+
+			.success {background-color: #4CAF50;} /* Green */
+			.info {background-color: #2196F3;} /* Blue */
+			.warning {background-color: #ff9800;} /* Orange */
+			.danger {background-color: #f44336;} /* Red */
+			.other {background-color: #e7e7e7; color: black;} /* Gray */ 
+		</style>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
@@ -28,189 +40,189 @@
 	<!-- Main -->
 		<div id="main">
 			<div class="container">
-				<!--<div class="row">
+				
 
 						<div class="12u skel-cell-important">
 							<section id="content">
 								<header>
-									<h2>Phantom Networks</h2>
-									<span class="byline">The Intangible Shoot-and-Scoot Communication Paradigm For Future Militaries</span>
+									<h2>Machine Learning for Agricultural IoT</h2>
+									<span class="byline"> Blind Entity Identification for Agricultural IoT Deployments</span>
+									<span class="label info">IEEE IoT Journal</span>
 								</header>
-								<p><a href="#" class="image full"><img src="images/phantom.png" style="width:70%;" align="center" alt=""></a></p>
-								<p>In this work, we put forth a philosophical treatise on a novel paradigm for an intangible, on-demand, and power-free aerial communication relaying, for which
-									we coin the term “Phantom Networks”. The proposed Phantom Network aims to temporarily bridge communication gaps between two or more out-of-range communicating devices or infrastructures using aerial nanonodes
-									suspended in atomized aqueous mists. This proposed on-demand shoot-and-scoot communication enabler is of particular interest to scenarios where there is a need for rapid deployment of temporary communication or
-									relaying infrastructures for enabling higher data volume communication networks, primarily associated with military operations. As the conceptualized aerial network is primarily aqueous, its coverage and lifetime are highly
-									dependent on ensuing atmospheric conditions in the deployment area. The possible future use of this proposed paradigm includes establishing temporary infrastructure free networks during disaster management and battlefield
-									communications. We discuss the design and implementation challenges posed by the intended on-demand aerial nano-network based communication relaying paradigm, its application horizon, and scope for future works.</p>
-							<a href="pdfs/COMMMAG-Phantom" class="button" target="_blank">PDF</a>
-							</section>
-						</div>
-				</div>
-			-->
-				
-				<div class="divider">&nbsp;</div>
-				<header>
-					<h2>AI/ML in UAV Networks</h3>
-				</header>
-				<div class="row">
-					<div class="6u">
-						<section>
-							<a class="image full"><img src="images/rl.png" style="width:100%;" align="center" alt="" /></a>
-							<p>This work looks into the problem of a decentralized data offloading within an edge UAV swarm to mitigate the complexities of
-								a single UAV continually generating and processing large application specific data. The mobile edge UAVs considered here are multi-rotor
-								types having constrained energy and processing power, which makes long-term handling of large data volumes impossible for standalone
-								UAVs. The load mitigation is carried out by offloading data from a source UAV to other swarm members with sufficient energy and processing
-								requirements. In this work, we focus on selecting the most optimal multi-hop path through the UAVs concerning available energies and
-								processing resources, which can survive the duration of the data offload between the source and a target UAV. We formulate a Multi-Armed
-								Bandit (MAB) based offload path selection scheme, which selects the most energy and processing optimized multi-hop path between a source
-								and a target UAV. Upon comparison of our scheme against the naive shortest path approach, we observe that our approach results in significant
-								savings of collective network energies, even for long operational durations.</p>
-							<a href="https://ieeexplore.ieee.org/abstract/document/8520858/" class="button" target="_blank">Read More</a>
-							<a href="pdfs/IoT_J_reinforcement" class="button" target="_blank">PDF</a>
-							<a href="citations/rl.txt" class="button" target="_blank">Citation</a>
-
-						</section>
-					</div>
-					
-					
-					
-					<div class="6u">
-						<section>
-							<a class="image full"><img src="images/spa1.png" style="width:50%;" align="center" alt="" /></a>
-							<a class="image full"><img src="images/spa2.png" style="width:50%;" align="center" alt="" /></a>
-							<p>In this paper, we propose the use of a Long Short-Term Memory (LSTM) based server-side sequence prediction
-							algorithm to ease network data-load caused by rapid polling of multiple sensors onboard aerial robotic platforms, which are wirelessly tethered to a remote server for control and
-							coordination. Our scheme reduces the network access time latencies between these platforms and the remote server hosting the control and scheduling mechanisms. Reduction
-							in the TDMA-based access time is achieved by reducing the actual amount of data transmitted over the network, using partial transmission of actual sensor data over the network
-							and server-side sequence prediction of the voluntarily missed sensor values. Our scheme allows the TDMA control of an increased number of networked platforms without change
-							of infrastructure or the network characteristics.</p>
-							<a href="https://ieeexplore.ieee.org/abstract/document/8377091/" class="button" target="_blank">Read More</a>
-							<a href="pdfs/WCNC2018_SPA" class="button" target="_blank">PDF</a>
-							<a href="citations/spa.txt" class="button" target="_blank">Citation</a>
-
-						</section>
-					</div>
-				</div>
-				
-				
-			<div class="divider">&nbsp;</div>
-				<header>
-					<h2>Smart UAV Networks in Agriculture</h3>
-				</header>
-				<div class="row">
-					<div class="6u">
-						<section>
-							<a class="image full"><img src="images/dap.png" style="width:100%;" align="center" alt="" /></a>
-							<p>This work addresses the challenges of a decentralized and heterogeneous Unmanned Aerial Vehicle
-								(UAV) swarm deployment -- some fitted with multimedia sensors, while others armed with scalar sensors -- in resource-constrained and challenging environments, typically associated with farming.
-								Subsequently, we also address the resulting problem of sensing and processing resource-intensive data aerially within the Edge swarm in the fastest and most efficient manner possible. The heterogeneous
-								nature of the Edge swarm results in under-utilization of the available computation resources due to unequal data generation within its members. To address this, we propose a Nash bargaining-
-								based weighted intra-Edge processing offload scheme to mitigate the problem of heavy processing in some of the swarm members. We do this by distributing the data to be processed to all the swarm
-								members. Real-life hardware tuned simulation of a large UAV swarm shows that by increasing the number of UAVs in the swarm, our scheme achieves better scalability and reduced processing delays
-								for intensive processing tasks. Additionally, in comparison to regular star and mesh topologies, our scheme achieves an increase in collective available network processing speeds by 100% for only 25%
-								of the number of UAVs in a star topology.</p>
-							<a href="https://www.sciencedirect.com/science/article/pii/S1389128619305328" class="button" target="_blank">Read More</a>
-							<a href="pdfs/COMNET-DAP" class="button" target="_blank">PDF</a>
-							<a href="citations/dap.txt" class="button" target="_blank">Citation</a>
-
-						</section>
-					</div>
-					
-					
-					
-					<div class="6u">
-						<section>
-							<a class="image full"><img src="images/survey1.png" style="width:50%;" align="center" alt="" /></a>
-							<a class="image full"><img src="images/survey2.png" style="width:50%;" align="center" alt="" /></a>
-
-							<p>The gain in popularity of unmanned aerial vehicles (UAV), platforms and systems (UAS) can be
-								attributed to its ease of operation, versatility and risk-free piloting. The primary UAV application domain has expanded, from recreational and military 
-								ights, to include scientific surveys and agriculture. The popularity of UAVs in scientific data gathering and applications, especially the
-								use of small, multi-rotor UAVs is quite widespread. These multi-rotor UAVs are small, portable, low-cost, highly manoeuvrable, and easy to handle. These features make such UAVs attractive to
-								scientists and researchers worldwide. There has been a sudden spurt of UAV use in niche domains, such as agriculture. Agriculturalists are choosing UAV-based field operations and remote sensing
-								over the time-tested satellite-based ones, especially for local-scale and high spatiotemporal resolution imagery. In this survey, we explore various UAV application areas, types, sensors, research domains,
-								deployment architectures. Comparisons between various UAV types, sensing technologies (UAV, WSN, satellites), UAV architectures and their utility in precision agriculture has been provided.
-								Additionally, crop stress, its types, and detection using various remotely-sensed vegetation indices have been explored for their use in UAV-based remote sensing.</p>
-							<a href="https://www.sciencedirect.com/science/article/pii/S1084804519303212" class="button" target="_blank">Read More</a>
-							<a href="pdfs/JNCA-UAV_survey" class="button" target="_blank">PDF</a>
-							<a href="citations/survey.txt" class="button" target="_blank">Citation</a>
-
-						</section>
-					</div>
-				</div>
-					
-					
-			<div class="divider">&nbsp;</div>
-
-				<div class="12u skel-cell-important">
-							<section id="content">
-								<header>
-									<h2>UAV Controls</h2>
-									<span class="byline">Fog-Based Visual Gesture Control and External Stabilization for Micro-UAVs</span>
-								</header>
-								<p><a href="#" class="image full"><img src="images/gesture.png" style="width:70%;" align="center" alt=""></a></p>
-								<p>We propose a method for a single ground
-									camera-based visual gesture control of a quadrotor mUAV
-									platform, making its flight more responsive and adaptive
-									to its human controller as compared to a human
-									controller using keypads or joysticks for controls. The
-									proposed camera-based gesture control scheme provides
-									an average accuracy of 100% gestures detected, as compared
-									to accuracies obtained using expensive Kinectbased
-									hardware, or processing intensive CNN-based pose
-									estimation techniques with 97.5% and 83.3% average
-									accuracies, respectively. A fog-based stabilization mechanism
-									is additionally employed, which allows for flight-time
-									stabilization of the mUAV, even in the presence
-									of unbalanced payloads or unbalancing of the mUAV
-									due to minor structural damages. This allows the use
-									of the same mUAV without the need for frequent weight
-									readjustments or mUAV calibration. This approach has
-									been tested in real-time, both indoors as well as outdoors.</p>
-							<a href="https://ieeexplore.ieee.org/abstract/document/8885528" class="button" target="_blank">Read More</a>
-							<a href="pdfs/WCNC2019-Gesture" class="button" target="_blank">PDF</a>
-							<a href="citations/gesture.txt" class="button" target="_blank">Citation</a>
-
+								<p><a href="#" class="image full"><img src="images/blind.png" style="width:50%;" align="center" alt=""></a></p>
+								<p><a href="#" class="image full"><img src="images/blind2.png" style="width:50%;" align="center" alt=""></a></p>
+								<p>Integration of various technologies to an Internet of
+									Things (IoT) framework share the common goals of a consistent
+									and structured data format that can be applied to any device,
+									given the vast application scope of IoT. Additional goals include
+									minimizing channel traffic and system energy consumption. In
+									this work, we propose to dismiss the requirement of certain
+									seemingly crucial identifier fields from packets arriving through
+									various sensor nodes in an agricultural IoT deployment. The
+									proposed approach reduces packet size, thereby reducing channel
+									traffic and energy consumption, as well as retaining the capability
+									of identifying these originating nodes. We propose a method of a
+									blind agricultural IoT node and sensor identification, which can
+									be sourced and operated from a master node as well as a remote
+									server. Additionally, this scheme has the capability of detecting
+									the radio link quality between the master and slave nodes in a
+									rudimentary form, as well as identifying the sensor nodes. We
+									successfully trained and tested various multi-layer perceptron
+									(MLP)-based models for blind identification, in real-time, using
+									our implemented agricultural IoT implementation. The effect
+									of changes in learning rate and momentum of the optimizer
+									on the accuracy of classification is also studied. The projected
+									cumulative energy savings across the network architecture, of
+									our scheme, in conjunction with TCP/IP header compression
+									techniques, are substantial. For a 100 node deployment using
+									a combination of the proposed blind identification reduced
+									sampling strategies over regular IPv4-based TCP/IP connection,
+									an estimated annual saving of 99% is projected.</p>
+							<a href="https://ieeexplore.ieee.org/abstract/document/8520835" class="button" target="_blank">Read More</a>
+							<a href="pdfs/iot/IEEE_IoTJ_Blind.pdf" class="button" target="_blank">PDF</a>
 							</section>
 						</div>
 						
-			<!--			
-			<div class="divider">&nbsp;</div>
-
+				<div class="divider">&nbsp;</div>		
 				<div class="12u skel-cell-important">
 							<section id="content">
 								<header>
-									<h2>Opportunistic UAV Networks</h2>
-									<span class="byline">Random Opportunistic and Selective Exploration for Cooperative Edge Swarm of UAVs</span>
+									<h2>Edge processing for Agricultural IoT</h2>
+									<span class="byline"> Predictive Intra-Edge Packet-Source Mapping in Agricultural Internet of Things</span>
+									<span class="label info">IEEE Globecomm Workshop 2018</span>
 								</header>
-								<p><a href="#" class="image full"><img src="images/rose.png" style="width:70%;" align="center" alt=""></a></p>
-								<p>In this work, we propose a physical approximation
-								scheme – Random Opportunistic and Selective Exploration
-								(ROSE) – for aerial localization of survivors by using a collaborative
-								swarm of IoT-based unmanned aerial vehicles (UAVs).
-								The UAV swarm performs a simultaneous multi-pronged search
-								of a given zone by dividing the search region among the swarm
-								members. This multi-pronged search strategy speeds-up the
-								search, and the division of search areas among the swarm
-								members avoids redundant exploration of an already explored
-								location. As the communication range of the member UAVs
-								is limited, the swarm members communicate opportunistically
-								among themselves to share the information of the visited
-								sites. We formulate the various probabilities associated with
-								opportunistic communication of these aerial IoT nodes and
-								simulate the performance of the approximation algorithm based
-								on these formulations. Simulation results of the proposed approach
-								successfully locate 100% of the ground targets within an
-								acceptable time-frame, and out-performs established searching
-								schemes such as the truncated Levy walk, frontier-based search,
-								and sweep search.</p>
-							<a href="pdfs/COMSNET20-ROSE" class="button" target="_blank">PDF</a>
+								<p><a href="#" class="image full"><img src="images/edge1.png" style="width:50%;" align="center" alt=""></a></p>
+								<p><a href="#" class="image full"><img src="images/edge2.png" style="width:50%;" align="center" alt=""></a></p>
+								<p>Dense IoT implementations incur heavy data load on
+									the implemented networks. In this paper, we propose and evaluate
+									a low-latency method of increasing the packet throughput in agricultural
+									IoT implementations. The proposed method envisions
+									removal of node identifiers from packets before transmission
+									and predictive packet-source mapping method within the edge
+									layer of an agrarian Internet of Things (IoT) implementation.
+									The edge layer following a master-slave architecture. Pre-trained
+									lightweight machine learning models at the edge identify the
+									origin of the incoming packets based on the long-term learned
+									collective variations of the sensorial values from the slave node.
+									This reduction in packets significantly frees up time-slots at
+									the receiving master node, allowing for more simultaneous
+									connections to it. This intra-edge packet origin mapping scheme is
+									further compared with the approach of edge node identification
+									at a remote server to adjudge the tradeoffs between accuracy
+									and latency of transmission. The proposed method doubles the
+									amount of sensor data transmitted between the slave to master
+									nodes with significant energy savings over longer duration and increases
+									the data throughput by approximately 1:5 times between
+									the master node and the remote server for our implementation.
+									The proposed method estimates energy savings in the order
+									of 20 watts for a deployment setup of 100 nodes over a year.
+									The energy savings over densely deployed IoT networks can be
+									utilized to accommodate more nodes and increase the lifetime of
+									the network.</p>
+							<a href="https://ieeexplore.ieee.org/abstract/document/8644296" class="button" target="_blank">Read More</a>
+							<a href="pdfs/iot/GlobecommWksp18_EdgeIoT.pdf" class="button" target="_blank">PDF</a>
 							</section>
 						</div>
-					-->
-	<!-- Main -->
-
+						
+					<div class="divider">&nbsp;</div>		
+				<div class="12u skel-cell-important">
+							<section id="content">
+								<header>
+									<h2>Knowledge Disovery in Dense IoT Networks</h2>
+									<span class="byline"> Knowledge Discovery for Enabling Smart Internet-of-Things: A Survey</span>
+									<span class="label info">Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery</span>
+								</header>
+								<p><a href="#" class="image full"><img src="images/sc1.png" style="width:50%;" align="center" alt=""></a></p>
+								<p><a href="#" class="image full"><img src="images/sc2.png" style="width:50%;" align="center" alt=""></a></p>
+								<p>The utility of knowledge discovery on the Internet of Things
+									(IoT) and its allied domains is undeniably one of the most
+									indispensable ones, which results in optimized placement
+									architectures, efficient routing protocols, device energy savings,
+									and enhanced security measures for the implementation.
+									The absence of knowledge discovery in IoT results
+									in just an implementation of large-scale sensor networks,
+									which generates a huge amount of data, and which needs, an
+									often under-optimized, processing for actionable outputs. In
+									this survey, we explore the various domains of IoT for which
+									knowledge discovery is inseparable from the application,
+									and how it benefits the overall implementation of the IoT
+									architecture.</p>
+							<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/widm.1276" class="button" target="_blank">Read More</a>
+							<a href="pdfs/iot/WILEY_WIRES_SMartCities_Survey.pdf" class="button" target="_blank">PDF</a>
+							</section>
+						</div>
+						
+						
+						
+								<div class="divider">&nbsp;</div>		
+				<div class="12u skel-cell-important">
+							<section id="content">
+								<header>
+									<h2>Smartphone-based Activity Recognition</h2>
+									<span class="byline"> SmartARM: A Smartphone-based Group Activity Recognition and Monitoring Scheme for Military Applications</span>
+									<span class="label info">IEEE ANTS 2017</span>
+								</header>
+								<p><a href="#" class="image full"><img src="images/act1.png" style="width:50%;" align="center" alt=""></a></p>
+								<p><a href="#" class="image full"><img src="images/act2.png" style="width:50%;" align="center" alt=""></a></p>
+								<p>In this paper we propose SmartARM – a
+								Smartphone-based group Activity Recognition and Monitoring
+								(ARM) scheme, which is capable of recognizing and
+								centrally monitoring coordinated group and individual group
+								member activities of soldiers in the context of military
+								excercises. In this implementation, we specifically consider
+								military operations, where the group members perform similar
+								motions or manoeuvres on a mission. Additionally, remote
+								administrators at the command center receive data from the
+								smartphones on a central server, enabling them to visualize
+								and monitor the overall status of soldiers in situations such
+								as battlefields, urban operations and during soldier’s physical
+								training. This work establishes – (a) the optimum position of
+								smartphone placement on a soldier, (b) the optimum classifier
+								to use from a given set of options, and (c) the minimum
+								sensors or sensor combinations to use for reliable detection
+								of physical activities, while reducing the data-load on the
+								network. The activity recognition modules using the selected
+								classifiers are trained on available data-sets using a testtrain-
+								validation split approach. The trained models are used
+								for recognizing activities from live smartphone data. The
+								proposed activity detection method puts forth an accuracy
+								of 80% for real-time data.</p>
+							<a href="https://ieeexplore.ieee.org/abstract/document/8384149" class="button" target="_blank">Read More</a>
+							<a href="pdfs/iot/ANTS17_SARM.pdf" class="button" target="_blank">PDF</a>
+							</section>
+						</div>
+				
+				
+												<div class="divider">&nbsp;</div>		
+				<div class="12u skel-cell-important">
+							<section id="content">
+								<header>
+									<h2>Networked Rover Navigation and Path Mapping</h2>
+									<span class="byline"> R2D2: Rotating-turret 2D-scanning and Dead-reckoning for Remotely Operated Rovers over Resource Constrained Network Systems</span>
+									<span class="label info">IEEE ANTS 2017</span>
+								</header>
+								<p><a href="#" class="image full"><img src="images/r2d21.png" style="width:35%;" align="center" alt=""></a></p>
+								<p><a href="#" class="image full"><img src="images/r2d22.png" style="width:70%;" align="center" alt=""></a></p>
+								<p>The use of rovers in navigating dangerous and uncharted
+									terrains for localization, mapping and data-gathering
+									for search and rescue in disaster management is a challenging
+									domain, especially with constrained network connectivity. In
+									this paper, a rover mounted rotating turret-based 2D ultrasonic
+									distance mapping and Inertial Measurement Unit (IMU)-based
+									dead-reckoning (R2D2) mechanism is proposed. The wireless
+									rover is operated over a constrained network, allowing its
+									handler to gather situational awareness of a hazardous site
+									remotely, and without risking lives. A visualization of the
+									path of this rover by means of a low data intensity fusion
+									map generated using a combination of ultrasonic distance
+									measurements and relative positioning information from the
+									dead-reckoning system is performed by the remote operator</p>
+							<a href="https://ieeexplore.ieee.org/abstract/document/8384145" class="button" target="_blank">Read More</a>
+							<a href="pdfs/iot/ANTS17_r2d2.pdf" class="button" target="_blank">PDF</a>
+							</section>
+						</div>
+				
+				
 	<!-- Copyright -->
 		<div id="copyright">
 			<div class="container">
