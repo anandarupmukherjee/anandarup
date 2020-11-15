@@ -22,6 +22,19 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+
+		<style>.label {
+			  color: white;
+			  padding: 8px;
+			}
+
+			.success {background-color: #4CAF50;} /* Green */
+			.info {background-color: #2196F3;} /* Blue */
+			.warning {background-color: #ff9800;} /* Orange */
+			.danger {background-color: #f44336;} /* Red */
+			.other {background-color: #e7e7e7; color: black;} /* Gray */ 
+		</style>
+				
 	</head>
 	<body class="homepage">
 
@@ -51,9 +64,10 @@
 				
 				<div class="divider">&nbsp;</div>
 				<header>
-					<h2>AI/ML in UAV Networks</h3>
+					<h2>Reinforcement Learning for UAV Networks</h3>
+					<span class="byline">Resource-optimized multiarmed bandit-based offload path selection in edge UAV swarms</span>
+					<span class="label info">IEEE IoT Journal</span>
 				</header>
-				<div class="row">
 					<div class="6u">
 						<section>
 							<a class="image full"><img src="images/rl.png" style="width:100%;" align="center" alt="" /></a>
@@ -67,13 +81,18 @@
 								and a target UAV. Upon comparison of our scheme against the naive shortest path approach, we observe that our approach results in significant
 								savings of collective network energies, even for long operational durations.</p>
 							<a href="https://ieeexplore.ieee.org/abstract/document/8520858/" class="button" target="_blank">Read More</a>
-							<a href="pdfs/uav/IoT_J_reinforcement" class="button" target="_blank">PDF</a>
+							<a href="pdfs/uav/IoT_J_reinforcement.pdf" class="button" target="_blank">PDF</a>
 							<a href="citations/rl.txt" class="button" target="_blank">Citation</a>
 
 						</section>
-					</div>
+				</div>
 					
-					
+				<div class="divider">&nbsp;</div>
+				<header>
+					<h2>LSTM for UAV Networks</h3>
+					<span class="byline">SPA: A sense-predict-actuate TDMA latency reduction scheme in networked quadrotors</span>
+					<span class="label info">IEEE WCNC 2018</span>
+				</header>
 					
 					<div class="6u">
 						<section>
@@ -86,17 +105,18 @@
 							and server-side sequence prediction of the voluntarily missed sensor values. Our scheme allows the TDMA control of an increased number of networked platforms without change
 							of infrastructure or the network characteristics.</p>
 							<a href="https://ieeexplore.ieee.org/abstract/document/8377091/" class="button" target="_blank">Read More</a>
-							<a href="pdfs/uav/WCNC2018_SPA" class="button" target="_blank">PDF</a>
+							<a href="pdfs/uav/WCNC2018_SPA.pdf" class="button" target="_blank">PDF</a>
 							<a href="citations/spa.txt" class="button" target="_blank">Citation</a>
 
 						</section>
 					</div>
-				</div>
 				
 				
 			<div class="divider">&nbsp;</div>
 				<header>
-					<h2>Smart UAV Networks in Agriculture</h3>
+					<h2>Game Theory in UAV Networks</h3>
+					<span class="byline">Distributed aerial processing for IoT-based edge UAV swarms in smart farming</span>
+					<span class="label info">Computer Networks (Elsevier)</span>
 				</header>
 				<div class="row">
 					<div class="6u">
@@ -111,14 +131,100 @@
 								for intensive processing tasks. Additionally, in comparison to regular star and mesh topologies, our scheme achieves an increase in collective available network processing speeds by 100% for only 25%
 								of the number of UAVs in a star topology.</p>
 							<a href="https://www.sciencedirect.com/science/article/pii/S1389128619305328" class="button" target="_blank">Read More</a>
-							<a href="pdfs/uav/COMNET-DAP" class="button" target="_blank">PDF</a>
+							<a href="pdfs/uav/COMNET-DAP.pdf" class="button" target="_blank">PDF</a>
 							<a href="citations/dap.txt" class="button" target="_blank">Citation</a>
 
 						</section>
 					</div>
+				</div>
+				
+
+				<div class="divider">&nbsp;</div>
+				<header>
+					<h2>Energy-aware Packet Routing in UAV Networks</h3>
+					<span class="byline">ECoR: Energy-Aware Collaborative Routing for Task Offload in Sustainable UAV Swarms</span>
+					<span class="label info">IEEE Trans. on Sustainable Computing</span>
+				</header>
+				<div class="row">
+					<div class="6u">
+						<section>
+							<a class="image full"><img src="images/ecor1.png" style="width:50%;" align="center" alt="" /></a>
+							<a class="image full"><img src="images/ecor2.png" style="width:50%;" align="center" alt="" /></a>
+							<p>In this work, we propose an Energy-aware Collaborative
+								Routing (ECoR) scheme for optimally handling task offloading between
+								source and destination UAVs in a grid-locked UAV swarm. We divide the
+								proposed scheme into two parts – routing path discovery and routing
+								path selection. The scheme selects the most optimal path between a
+								source and destination from a massive set of all possible paths, based
+								on the maximization of residual energy of UAVs along a selected path.
+								This routing path selection ensures balanced energy utilization between
+								members of the UAV swarm and enhances the overall path lifetime
+								without incurring additional delays in doing so. Actual readings from
+								our small-scale UAV swarm testbed are utilized to emulate a largescale
+								scenario and analyze the behavior of our proposed scheme. Upon
+								comparison of the ECoR scheme with broadcast-based routing and the
+								shortest path based routing, we observe better sustainability regarding
+								the longevity of the UAV lifetimes in the swarm, optimized individual UAV,
+								as well as reduced collective path-based energy consumption, all the
+								while having comparable transmission delays to the shortest path based
+								scheme.</p>
+							<a href="https://ieeexplore.ieee.org/abstract/document/9016065" class="button" target="_blank">Read More</a>
+							<a href="pdfs/uav/TSUSC_ECoR.pdf" class="button" target="_blank">PDF</a>
+						</section>
+					</div>
+				</div>
+				
+				
+
+				<div class="divider">&nbsp;</div>
+				<header>
+					<h2>Virtualization of UAV Networks</h2>
+					<span class="byline">UAV Virtualization for Enabling Heterogeneous and Persistent UAV-as-a-Service</span>
+					<span class="label info">IEEE Trans. on Vehicular Technology</span>
+				</header>
+				<div class="row">
+					<div class="6u">
+						<section>
+							<a class="image full"><img src="images/virt1.png" style="width:70%;" align="center" alt="" /></a>
+							<a class="image full"><img src="images/virt2.png" style="width:70%;" align="center" alt="" /></a>
+							<p>In this paper, we propose an architecture for UAV
+								virtualization with the primary aim to provide virtualized UAV
+								services to multiple users by envisioning the concept of UAV-asa-
+								Service. In contrast to traditional UAVs, which are resourceconstraint
+								in nature and exhibit shorter flight times, our proposed
+								UAV virtualization overcomes the limitations of short flight time
+								of traditional UAVs, in turn allowing them to provide persistent
+								and ubiquitous services. We achieve the virtualization of a UAV
+								through multiple collaborating real-life UAVs performing various
+								tasks in tandem. In this work, we focus on the placement and selection
+								of UAVs to achieve virtualization. We use a social welfarebased
+								approach to select suitable UAVs, from the available ones,
+								and map the UAV to a virtual one. This work enables the
+								provision of different UAV services to multiple end-users, without
+								actual procurement of the UAVs by the end-users. We compare
+								the results for optimal placement, normal maximum energybased
+								UAV selection, and Atkinson-based selection method. We
+								also compare the virtual model and simple UAV-to-task model to
+								physical UAV usage, task completion ratio, and residual energy
+								of the system. Our proposed model outperforms the traditional
+								model with a task completion efficiency of 94.26%. The residual
+								energy of the system also increases with an increase in the number
+								of tasks.</p>
+							<a href="https://ieeexplore.ieee.org/abstract/document/9072443/" class="button" target="_blank">Read More</a>
+							<a href="pdfs/uav/TVT_Virtualization.pdf" class="button" target="_blank">PDF</a>
+						</section>
+					</div>
+				</div>
+
+				
 					
-					
-					
+				<div class="divider">&nbsp;</div>
+				<header>
+					<h2>UAV Networks in Agriculture</h3>
+					<span class="byline">A survey of unmanned aerial sensing solutions in precision agriculture</span>
+					<span class="label info">Journal of Network and Computer Applications (Elsevier)</span>
+				</header>
+				<div class="row">
 					<div class="6u">
 						<section>
 							<a class="image full"><img src="images/survey1.png" style="width:50%;" align="center" alt="" /></a>
@@ -133,9 +239,36 @@
 								deployment architectures. Comparisons between various UAV types, sensing technologies (UAV, WSN, satellites), UAV architectures and their utility in precision agriculture has been provided.
 								Additionally, crop stress, its types, and detection using various remotely-sensed vegetation indices have been explored for their use in UAV-based remote sensing.</p>
 							<a href="https://www.sciencedirect.com/science/article/pii/S1084804519303212" class="button" target="_blank">Read More</a>
-							<a href="pdfs/uav/JNCA-UAV_survey" class="button" target="_blank">PDF</a>
+							<a href="pdfs/uav/JNCA-UAV_survey.pdf" class="button" target="_blank">PDF</a>
 							<a href="citations/survey.txt" class="button" target="_blank">Citation</a>
 
+						</section>
+					</div>
+				</div>
+				
+				
+				<div class="divider">&nbsp;</div>
+				<header>
+					<h2>UAV-based Automated Land Boundary Demarcation</h2>
+					<span class="byline">IDeA: IoT-Based Autonomous Aerial Demarcation and Path Planning for Precision Agriculture with UAVs</span>
+					<span class="label info">ACM Trans. on IoT</span>
+				</header>
+				<div class="row">
+					<div class="6u">
+						<section>
+							<a class="image full"><img src="images/tiot.png" style="width:90%;" align="center" alt="" /></a>
+							<p>In this work, we propose an autonomous and on-board image-based agricultural land demarcation and path-planning system - IDeAL
+							(IoT-Based Autonomous Aerial Demarcation and Path-planning for Traversing Agricultural Lands) - using our advanced UAV-based
+							aerial IoT platform. Our work successfully addresses the problem of onboard and autonomous path-planning - which conventional
+							UAV-based systems are not capable of - during standalone operations and without preloaded GPS-markers for flight-path way-points.
+							Our aerial system visually identifies non-electronically and singularly tagged agricultural plots and assesses the enclosing boundaries
+							of the identified plot. Subsequently, an on-board path-planning module autonomously generates GPS-waypoints for traversing the
+							identified plot with minimal overlaps and maximal coverage. Our proposed system exhibits an area coverage efficiency of 95.39% ,
+							performs pixel-to-GPS coordinate conversion with an accuracy of 90.35%, and has high agricultural potential in applications such
+							as surveying crop-health conditions, spraying pesticide/herbicides, and others. The proposed system has massive applications in
+							scenarios requiring aerial detection, demarcation, geographical tagging and coverage of an area.</p>
+							<a href="https://dl.acm.org/doi/fullHtml/10.1145/3379930" class="button" target="_blank">Read More</a>
+							<a href="pdfs/uav/TIOT_UAV_demarc.pdf" class="button" target="_blank">PDF</a>
 						</section>
 					</div>
 				</div>
@@ -146,10 +279,11 @@
 				<div class="12u skel-cell-important">
 							<section id="content">
 								<header>
-									<h2>UAV Controls</h2>
+									<h2>Networked UAV Control and Stabilization</h2>
 									<span class="byline">Fog-Based Visual Gesture Control and External Stabilization for Micro-UAVs</span>
+									<span class="label info">IEEE WCNC 2019</span>
 								</header>
-								<p><a href="#" class="image full"><img src="images/gesture.png" style="width:70%;" align="center" alt=""></a></p>
+								<p><a href="#" class="image full"><img src="images/gesture.png" style="width:40%;" align="center" alt=""></a></p>
 								<p>We propose a method for a single ground
 									camera-based visual gesture control of a quadrotor mUAV
 									platform, making its flight more responsive and adaptive
@@ -183,8 +317,9 @@
 								<header>
 									<h2>Opportunistic UAV Networks</h2>
 									<span class="byline">Random Opportunistic and Selective Exploration for Cooperative Edge Swarm of UAVs</span>
+									<span class="label info">IEEE COMSNET 2020</span>
 								</header>
-								<p><a href="#" class="image full"><img src="images/rose.png" style="width:70%;" align="center" alt=""></a></p>
+								<p><a href="#" class="image full"><img src="images/rose.png" style="width:40%;" align="center" alt=""></a></p>
 								<p>In this work, we propose a physical approximation
 								scheme – Random Opportunistic and Selective Exploration
 								(ROSE) – for aerial localization of survivors by using a collaborative
@@ -205,9 +340,46 @@
 								acceptable time-frame, and out-performs established searching
 								schemes such as the truncated Levy walk, frontier-based search,
 								and sweep search.</p>
-							<a href="pdfs/uav/COMSNET20-ROSE" class="button" target="_blank">PDF</a>
+							<a href="https://ieeexplore.ieee.org/abstract/document/9027455" class="button" target="_blank">Read More</a>
+							<a href="pdfs/uav/COMSNET20-ROSE.pdf" class="button" target="_blank">PDF</a>
 							</section>
 						</div>
+						
+
+				<div class="divider">&nbsp;</div>
+				<header>
+					<h2>Blockchains in UAV Networks</h3>
+					<span class="byline">AerialBlocks: Blockchain-Enabled UAV Virtualization for Industrial IoT</span>
+					<span class="label info">IEEE IoT Magazine</span>
+				</header>
+				<div class="row">
+					<div class="6u">
+						<section>
+							<a class="image full"><img src="images/arb.png" style="width:120%;" align="center" alt="" /></a>
+							<p>Unmanned Aerial Vehicles (UAV) are coming up as
+								a powerful tool in various industrial applications in the context
+								of enabling Industrial IoT. The limited power source and flight
+								time of UAVs along with the need for skilled UAV operators are
+								some of the most daunting challenges to the integration of UAVs
+								in industrial applications such as site inspection, workforce monitoring,
+								logistics, and others. In this paper, we propose the unique
+								paradigm of blockchain-enabled UAV virtualization to provide
+								virtual UAV-as-a-service for industrial applications. The proposed
+								architecture also aims at providing secure and persistent UAV
+								services to the end-users along with a partially decentralized
+								blockchain model to ensure security, privacy, service quality, and
+								transparency. UAV virtualization allows persistent UAV services,
+								globally, without procuring any physical UAVs. The platform
+								offers virtual UAV services on a pay per use basis to the enduser.
+								The UAV owners and virtual UAV service providers gain
+								monetary benefits for their contribution to the UAV services.
+								Finally, we discuss the implications of the proposed platform on
+								the domains of Industrial IoT and the possible challenges in the
+								implementation of this paradigm.</p>
+							<a href="pdfs/uav/IoTMag-aerialblocks.pdf" class="button" target="_blank">PDF</a>
+						</section>
+					</div>
+				</div>
 					
 	<!-- Main -->
 
